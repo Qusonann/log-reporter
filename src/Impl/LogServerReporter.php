@@ -45,7 +45,11 @@ class LogServerReporter implements Reporter
         }
     }
 
-    /** @noinspection SpellCheckingInspection */
+    /**
+     * @noinspection SpellCheckingInspection
+     * @noinspection PhpUnused
+     * @param Reporter $reporter
+     */
     public static function setHandlers(Reporter $reporter): void
     {
         $handler = function (int $errno, string $errstr, $errfile, $errline) use($reporter) {
