@@ -1,0 +1,23 @@
+{
+  "name": "wkejqb/log-reporter",
+  "type": "project",
+  "description": "Log reporter",
+  "autoload": {
+    "psr-4": {
+      "LogReporter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2.17",
+    "monolog/monolog": "^2.0",
+    "graylog2/gelf-php": "^1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
