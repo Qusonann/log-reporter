@@ -2,6 +2,8 @@
   "name": "wkejqb/log-reporter",
   "type": "project",
   "description": "Log reporter",
+  "license": "MIT",
+  "type": "library",
   "autoload": {
     "psr-4": {
       "LogReporter\\": "src/"
