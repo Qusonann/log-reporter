@@ -6,3 +6,9 @@ Features:
 
 * gelf-style reporting
 * notification grouping
+
+## usage
+
+```
+composer require wkejqb/log-reporter
+```
